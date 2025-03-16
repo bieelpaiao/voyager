@@ -86,6 +86,15 @@ ou com alguns dados já inseridos
 php artisan voyager:install --with-dummy
 ```
 
+### Utilização do Voyager
+Após a instalação, utilize o Laragon para acessar o Voyager. Com o Laragon aberto, clique com o botão direito e vá em www>```nome_do_projeto_laravel```. O Laragon irá abrir uma janela no seu navegador redirecionando para a página inicial do Laravel. Adicione /admin no final da URL para ter acesso ao Voyager.
+
+![](acesso.gif)
+
+De acordo com a documentação, as credenciais padrão são: 
+* **email:** ```admin@admin.com```
+* **password:** ```password```
+
 ## Referências
 * [Voyager](https://voyager-docs.devdojo.com/)
 * [Laravel](https://laravel.com/)
